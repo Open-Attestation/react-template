@@ -23,7 +23,7 @@
     "@storybook/react": "^5.3.18",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
+    "@testing-library/user-event": "^7.2.1",
     "@types/jest": "^24.0.0",
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
@@ -39,6 +39,7 @@
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^3.0.0",
     "eslint-plugin-testcafe": "^0.2.1",
+    "eslint-plugin-testing-library": "^3.1.2",
     "git-cz": "^4.3.1",
     "npm-run-all": "^4.1.5",
     "postcss-cli": "^7.1.1",
@@ -85,7 +86,8 @@
       "plugin:import/typescript",
       "prettier",
       "prettier/@typescript-eslint",
-      "prettier/react"
+      "prettier/react",
+      "plugin:testing-library/react"
     ],
     "parserOptions": {
       "project": "./tsconfig.json"
@@ -94,7 +96,8 @@
       "import",
       "react",
       "@typescript-eslint",
-      "react-hooks"
+      "react-hooks",
+      "testing-library"
     ],
     "rules": {
       "@typescript-eslint/explicit-function-return-type": [

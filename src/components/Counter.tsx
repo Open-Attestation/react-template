@@ -38,7 +38,7 @@ export const Counter: FunctionComponent<CounterProps> = ({ initialValue = 0 }) =
   const [counter, setCounter] = useState(initialValue);
   return (
     <div className="flex flex-col items-center counter">
-      <div className="text-center" css={style}>
+      <div className="text-center" css={style} data-testid="counter-content">
         Counter: {counter}
       </div>
       <div>

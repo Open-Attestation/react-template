@@ -6,6 +6,6 @@ describe("Home", () => {
   it("render learn react link", () => {
     expect.assertions(1);
     render(<Home />);
-    expect(screen.getByText("Learn React")).toBeInTheDocument();
+    expect(screen.getByTestId("learn-react-link")).toHaveTextContent("Learn React");
   });
 });

@@ -6,6 +6,6 @@ describe("Help", () => {
   it("render help text", () => {
     expect.assertions(1);
     render(<Help />);
-    expect(screen.getByText("Help")).toBeInTheDocument();
+    expect(screen.getByRole("heading")).toHaveTextContent("Help");
   });
 });

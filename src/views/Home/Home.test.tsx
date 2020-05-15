@@ -1,12 +1,11 @@
-import { render } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import React from "react";
 import { Home } from "./Home";
 
 describe("Home", () => {
-  it("renders learn react link", () => {
+  it("render learn react link", () => {
     expect.assertions(1);
-    const { getByText } = render(<Home />);
-    const linkElement = getByText(/Learn React/i);
-    expect(linkElement).toBeInTheDocument();
+    render(<Home />);
+    expect(screen.getByText("Learn React")).toBeInTheDocument();
   });
 });

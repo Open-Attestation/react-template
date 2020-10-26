@@ -3,7 +3,7 @@ import React from "react";
 import { MemoryRouter } from "react-router-dom";
 import { Home } from "./Home";
 
-describe("Home", () => {
+describe("home", () => {
   it("render learn react link", () => {
     expect.assertions(1);
     render(<Home />, { wrapper: MemoryRouter });

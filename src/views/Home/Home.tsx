@@ -18,7 +18,9 @@ export const Home: React.FunctionComponent = () => (
       >
         Learn React
       </a>
-      <Link data-testid="help-link" to="/help">Help</Link>
+      <Link data-testid="help-link" to="/help">
+        Help
+      </Link>
     </header>
   </div>
 );

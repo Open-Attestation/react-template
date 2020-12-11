@@ -12,8 +12,10 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react",
-    "allowJs": true
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "noFallthroughCasesInSwitch": true,
+    "types": ["@emotion/react/types/css-prop"]
   },
   "include": ["src", "integration"]
 }

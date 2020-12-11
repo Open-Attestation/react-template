@@ -1,5 +1,7 @@
+// https: github.com/emotion-js/emotion/issues/2041
+/** @jsxRuntime classic */
 /** @jsx jsx */
-import { css, jsx } from "@emotion/core";
+import { css, jsx } from "@emotion/react";
 import styled from "@emotion/styled";
 import { FunctionComponent, useState } from "react";
 

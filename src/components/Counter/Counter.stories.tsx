@@ -10,7 +10,7 @@ export default {
   },
 };
 
-export const CounterStory = () => (
+export const CounterStory: React.FunctionComponent = () => (
   <div>
     <h1 className="storybook-title">Basic counter</h1>
     <Counter />
